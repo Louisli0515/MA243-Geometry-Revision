@@ -1,7 +1,7 @@
 # MA243-Geometry-Revision
 My own revision on the module Geometry, mainly from example sheets and past papers
 
-This respistory will mainly focus on two parts, from support class sheets and past papers. For the support class I will create my own pdf, so no license issues should be addressed.
+This repository will mainly focus on two parts, from support class sheets and past papers. For the support class I will create my own pdf, so no license issues should be addressed.
 
 ## Lecture notes
 
