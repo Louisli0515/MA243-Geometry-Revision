@@ -45,3 +45,32 @@ In week 1's example sheets, there are some new definitions and old linear algebr
 ### Week 2
 
 [MA243_Geometry_week_2.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11232734/MA243_Geometry_week_2.pdf)
+
+In week 2's example sheets, note that there are some theorems to be revised.
+
+#### Orthogonality
+
+* Vectors $\mathbf{u},\mathbf{v}$ are ***orthogonal*** to each other if  their inner product is 0. 
+* A basis of $\mathbb{R}^{n}$ is an ***orthogonal basis*** if it consists of normalised vectors which are mutually orthogonal.
+* An orthogonal matrix is $A^{T} = A^{-1}$.
+
+#### Orthogonal complement
+
+* If $V$ is a vector space, with a subspace $W$, then the ***orthogonal complement*** of $W$ in $V$ is the vector subspace $$W^{\perp} = \set{\mathbf{v}\in V:\langle\mathbf{v},\mathbf{w}\rangle = 0,\forall \mathbf{w}\in W}.$$
+
+#### Orthogonal matrices and Linear Isometry
+
+* Let $L:\mathbb{R}^{n}\to\mathbb{R}^{n}$ be a linear map with matrix $A$ with respect to the standard basis. Then the following ***are equivalent***:
+* $L$ is an isometry.
+* $\left\|L(\mathbf{x})\right\| = \left\|\mathbf{x}\right\|$ for all $\mathbf{x}\in\mathbb{R}^{n}$, i.e. $L$ is ***norm preseving***.
+* $\langle L(\mathbf{x}), L(\mathbf{y})\rangle = \langle \mathbf{x},\mathbf{y}\rangle.$, $\forall\mathbf{x},\mathbf{y}\in\mathbb{R}^{n}$, i.e. $L$ ***preserves the inner product***.
+* The matrix $A$ is ***orthogonal***, i.e. $A^{T}A = I$.
+
+#### Normal form Theorem
+
+* Let $L:\mathbb{R}^{n}\to\mathbb{R}^{n}$ be a ***linear isometry*** and $A$ an ***orthogonal matrix*** such that $L(\mathbf{x}) = A\mathbf{x}$. Then there is an ***orthonormal basis*** of $\mathbb{R}^{n}$ with respect to which $L$ has the matrix of the form 
+
+```math```
+A = 
+```math```
+
