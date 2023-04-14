@@ -92,3 +92,26 @@ B_{i} = \begin{bmatrix} \cos\theta_{i} & -\sin\theta_{i} \\
 #### Spectral theorem
 
 * $A$ is normal if and only if it is unitarily diagonalisable. i.e. $A$ is normal if and only if there exists a unitary matrix $U$ such that $$A = UDU^* ,$$ where $D$ is a digaonal matrix, and $U$ is a unitary matrix, meaning its conjugate transpose $U*$ is also its inverse, that is, if $$U^* U = UU^* = UU^{-1} = I.$$
+
+### Week 3
+
+[MA243_Geometry_week_3.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11237714/MA243_Geometry_week_3.pdf)
+
+In week 3's example sheet, we focus mainly on groups and hyperplanes.
+
+#### Hyperplane
+
+* A ***hyperplane*** of $\mathbb{R}^{n}$ is an affine subspace of dimension $n-1$, which has the form $$\Pi = V+\mathbf{b} = \set{\mathbf{b}+\mathbf{v}:\mathbf{v}\in V} = (\mathbb{R}\mathbf{v}_ n)^{\perp} + \mathbf{b} = \set{\mathbf{v}\in\mathbb{R}^{n}:\langle\mathbf{v},\mathbf{v}_ n\rangle = \beta}.$$
+
+#### Reflection
+
+* The reflection $\rho_{\Pi}$ in the hyperplane $\Pi$ exists and is ***unique***, and is given by $$\rho_{\Pi}:\mathbf{P}\to\mathbf{P}-2\langle\mathbf{P}-\mathbf{b},\mathbf{v}\rangle\mathbf{v},$$ where $\Pi = \mathbf{b}+(\mathbb{R}\mathbf{v})^{\perp}$ and $\left|\mathbf{v}\right| = 1$.
+* If $R$ is a reflection and $T$ is any isometry, then $T^{-1}\circ R\circ T$ is also a reflection.
+* If $\rho_{\Pi}$ is a reflection in the plane $\Pi$, then the conjugation of $\rho_{\Pi}$ by the reflection $T(\mathbf{x}) = \mathbf{x}+\mathbf{c}$, that is, the map $T^{-1}\circ\rho_{\Pi}\circ T$ is a reflection in $\Pi - \mathbf{c}$.
+* A reflection $R$ has order 2, that is, $$R\circ R = \text{id}.$$
+
+#### Review of Group Theory
+
+* A ***homomorphism*** between two groups $G$ and $H$ is a map $$\phi:G\to H$$ such that $\phi(gh^{-1}) = \phi(g)\phi(h)^{-1}$ for all $g,h\in G$. i.e. $\phi$ preserves multiplication, inverse, identity.
+* An ***Isomorphism*** is a ***group homomorphism*** which is a bijection.
+* The group of ***automorphisms*** of a group $H$ is the group $$Aut(H) = \set{f:H\to H:f\ \text{is}\ \text{group}\ \text{isomorphism}},$$ with group law composition of functions. 
