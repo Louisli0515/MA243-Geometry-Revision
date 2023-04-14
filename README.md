@@ -70,7 +70,9 @@ In week 2's example sheets, note that there are some theorems to be revised.
 
 * Let $L:\mathbb{R}^{n}\to\mathbb{R}^{n}$ be a ***linear isometry*** and $A$ an ***orthogonal matrix*** such that $L(\mathbf{x}) = A\mathbf{x}$. Then there is an ***orthonormal basis*** of $\mathbb{R}^{n}$ with respect to which $L$ has the matrix of the form 
 
-```math```
-A = 
-```math```
-
+```math
+\begin{bmatrix} \lambda^{n} & n\lambda^{n-1} & ... & C_{k-1}^{n}\lambda^{n-k+1}\\
+0 & \lambda^{n} & ... & C_{k-2}^{n}\lambda^{n-k+2}\\
+\vdots & \vdots & \vdots & \vdots\\
+0 & 0 & ... & \lambda^{n}\end{bmatrix}.
+```
