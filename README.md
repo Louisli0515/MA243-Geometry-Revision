@@ -41,3 +41,7 @@ In week 1's example sheets, there are some new definitions and old linear algebr
 #### Reflection and rotational matrix
 
 * A reflection matrix has eigenvalues $\pm 1$, while a rotational matrix with an anti-clockwise rotation has eigenvalues $e^{\pm i\theta}$.
+
+### Week 2
+
+[MA243_Geometry_week_2.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11232734/MA243_Geometry_week_2.pdf)
