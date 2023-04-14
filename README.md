@@ -58,6 +58,11 @@ In week 2's example sheets, note that there are some theorems to be revised.
 
 * If $V$ is a vector space, with a subspace $W$, then the ***orthogonal complement*** of $W$ in $V$ is the vector subspace $$W^{\perp} = \set{\mathbf{v}\in V:\langle\mathbf{v},\mathbf{w}\rangle = 0,\forall \mathbf{w}\in W}.$$
 
+#### Eigenvectors and eigenvalues
+
+* If a matrix has no real eigenvalues, then it is not diagonalisable over the real numbers.
+* Any real polynomial of odd degree has a real root.
+
 #### Orthogonal matrices and Linear Isometry
 
 * Let $L:\mathbb{R}^{n}\to\mathbb{R}^{n}$ be a linear map with matrix $A$ with respect to the standard basis. Then the following ***are equivalent***:
@@ -75,5 +80,15 @@ In week 2's example sheets, note that there are some theorems to be revised.
  & -I_{m} &  & &\\
  &  & B_{1} & &\\
  &  &  & \ddots &\\
- &  &  &  & B_{l}\end{bmatrix}.
+ &  &  &  & B_{l}\end{bmatrix},
 ```
+where $I_{k}$ is the $k\times k$ identity matrix, and $B_{i}$ is the $2\times 2$ matrix representing a rotation of $\theta_{i}$ degrees counter clockwise about origin 
+
+```math
+B_{i} = \begin{bmatrix} \cos\theta_{i} & -\sin\theta_{i} \\
+ \sin\theta_{i} & \cos\theta_{i}\end{bmatrix}.
+```
+
+#### Spectral theorem
+
+* $A$ is normal if and only if it is unitarily diagonalisable. i.e. $A$ is normal if and only if there exists a unitary matrix $U$ such that $$A = UDU^* ,$$ where $D$ is a digaonal matrix, and $U$ is a unitary matrix, meaning its conjugate transpose $U*$ is also its inverse, that is, if $$U^* U = UU^* = UU^{-1} = I.$$
