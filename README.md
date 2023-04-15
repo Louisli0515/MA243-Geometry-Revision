@@ -124,7 +124,7 @@ In week 4's example sheet, we enter the field of spherical geometry.
 
 #### The sphere and the spherical metric
 
-* The ***n-dimensional sphere*** of radius $r\geq 0$ is defined by $$S_{r}^{n} = \set{\mathbf{x}\in\mathbb{R}^{n+1}:\left|\mathbf{x}\right| = r},$$ where $S^{n} = S_{1}^{n}.$
+* The ***n-dimensional sphere*** of radius $r\geq 0$ is defined by $$S_{r}^{n} = \set{\mathbf{x}\in\mathbb{R}^{n+1}:\left|\mathbf{x}\right| = r},$$ where $S^{n} = S_{1}^{n},$ which has Euclidean norm 1.
 * A spherical line or ***great circle*** is the intersection of $S_{r}^{n}$ with a ***2-dimensional vector subspace*** of $\mathbb{R}^{n+1}$, i.e. $$S^{2}\cap\Pi,$$ where $\Pi$ is some plane in $\mathbb{R}^{3}$ containing 0.
 
 #### Antipodal
