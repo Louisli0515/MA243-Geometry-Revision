@@ -121,3 +121,26 @@ In week 3's example sheet, we focus mainly on groups and hyperplanes.
 [MA243_Geometry_week_4.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11239138/MA243_Geometry_week_4.pdf)
 
 In week 4's example sheet, we enter the field of spherical geometry.
+
+#### The sphere and the spherical metric
+
+* The ***n-dimensional sphere*** of radius $r\geq 0$ is defined by $$S_{r}^{n} = \set{\mathbf{x}\in\mathbb{R}^{n+1}:\left|\mathbf{x}\right| = r},$$ where $S^{n} = S_{1}^{n}.$
+* A spherical line or ***great circle*** is the intersection of $S_{r}^{n}$ with a ***2-dimensional vector subspace*** of $\mathbb{R}^{n+1}$, i.e. $$S^{2}\cap\Pi,$$ where $\Pi$ is some plane in $\mathbb{R}^{3}$ containing 0.
+
+#### Antipodal
+
+* If $\mathbf{P},\mathbf{Q}\in S_{r}^{n}$, then they are ***antipodal*** if $\mathbf{Q} = -\mathbf{P}$.
+* If $\mathbf{P}$ and $\mathbf{Q}$ in $S_{r}^{n}$ are ***not antipodal***, then there is a unique great circle containing both of them.
+
+#### Spherical Distance
+
+* The ***spherical distance*** between two points $\mathbf{P},\mathbf{Q}\in S_{r}^{n}$ is the length of the ***shortest arc*** of a great circle joining them. We will show that this distance is a metric, called the ***spherical metric***, which we can also define by $$d_{S_{r}^{n}}(\mathbf{P},\mathbf{Q}) = r\arccos\left(\frac{\langle\mathbf{P},\mathbf{Q}\rangle}{r^{2}}\right).$$
+
+#### Main formula of spherical trigonomtry
+* Let $\alpha,\beta,\gamma$ be the ***side lengths*** of a spherical triangle with vertices $\mathbf{P},\mathbf{Q},\mathbf{R}\in S^{2}$ on the unit sphere, $$\alpha = d(\mathbf{Q},\mathbf{R}),\quad\beta = d(\mathbf{P},\mathbf{Q}),\quad\gamma = d(\mathbf{P},\mathbf{Q}),$$ where $d = d_{S^{2}}$ is the ***spherical metric***. Let $a$ be the ***spherical angle*** between arcs $\mathbf{P}\mathbf{Q}$ and $\mathbf{P}\mathbf{R}$. Then $$\cos\alpha = \cos\beta\cdot\cos\gamma + \sin\beta\cdot\sin\gamma\cdot\cos a.$$
+
+#### Isometry in spherical isometries
+
+* An isometry $T:S^{n}\to S^{N}$ preserves ***antipodal points***.
+* An isometry $T:S^{n}\to S^{N}$ preserves ***great circles***.
+* A ***bijective map*** $f:\mathbb{R}^{k}\to\mathbb{R}^{k}$, which ***preserves the standard inner product*** on $\mathbb{R}^{k}$ is a ***linear isometry*** of $\mathbb{R}^{k}$.
