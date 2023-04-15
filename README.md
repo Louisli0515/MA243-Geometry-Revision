@@ -115,3 +115,9 @@ In week 3's example sheet, we focus mainly on groups and hyperplanes.
 * A ***homomorphism*** between two groups $G$ and $H$ is a map $$\phi:G\to H$$ such that $\phi(gh^{-1}) = \phi(g)\phi(h)^{-1}$ for all $g,h\in G$. i.e. $\phi$ preserves multiplication, inverse, identity.
 * An ***Isomorphism*** is a ***group homomorphism*** which is a bijection.
 * The group of ***automorphisms*** of a group $H$ is the group $$Aut(H) = \set{f:H\to H:f\ \text{is}\ \text{group}\ \text{isomorphism}},$$ with group law composition of functions. 
+
+### Week 4
+
+[MA243_Geometry_week_4.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11239138/MA243_Geometry_week_4.pdf)
+
+In week 4's example sheet, we enter the field of spherical geometry.
