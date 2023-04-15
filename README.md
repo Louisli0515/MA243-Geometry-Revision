@@ -139,7 +139,7 @@ In week 4's example sheet, we enter the field of spherical geometry.
 #### Main formula of spherical trigonomtry
 * Let $\alpha,\beta,\gamma$ be the ***side lengths*** of a spherical triangle with vertices $\mathbf{P},\mathbf{Q},\mathbf{R}\in S^{2}$ on the unit sphere, $$\alpha = d(\mathbf{Q},\mathbf{R}),\quad\beta = d(\mathbf{P},\mathbf{Q}),\quad\gamma = d(\mathbf{P},\mathbf{Q}),$$ where $d = d_{S^{2}}$ is the ***spherical metric***. Let $a$ be the ***spherical angle*** between arcs $\mathbf{P}\mathbf{Q}$ and $\mathbf{P}\mathbf{R}$. Then $$\cos\alpha = \cos\beta\cdot\cos\gamma + \sin\beta\cdot\sin\gamma\cdot\cos a.$$
 
-#### Isometry in spherical isometries
+#### Isometry in spherical geometry
 
 * An isometry $T:S^{n}\to S^{N}$ preserves ***antipodal points***.
 * An isometry $T:S^{n}\to S^{N}$ preserves ***great circles***.
