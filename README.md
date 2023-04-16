@@ -144,3 +144,9 @@ In week 4's example sheet, we enter the field of spherical geometry.
 * An isometry $T:S^{n}\to S^{N}$ preserves ***antipodal points***.
 * An isometry $T:S^{n}\to S^{N}$ preserves ***great circles***.
 * A ***bijective map*** $f:\mathbb{R}^{k}\to\mathbb{R}^{k}$, which ***preserves the standard inner product*** on $\mathbb{R}^{k}$ is a ***linear isometry*** of $\mathbb{R}^{k}$.
+
+### Week 5
+
+[MA243_Geometry_week_5.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11240922/MA243_Geometry_week_5.pdf)
+
+
