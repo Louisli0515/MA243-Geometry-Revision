@@ -144,6 +144,7 @@ In week 4's example sheet, we enter the field of spherical geometry.
 * An isometry $T:S^{n}\to S^{N}$ preserves ***antipodal points***.
 * An isometry $T:S^{n}\to S^{N}$ preserves ***great circles***.
 * A ***bijective map*** $f:\mathbb{R}^{k}\to\mathbb{R}^{k}$, which ***preserves the standard inner product*** on $\mathbb{R}^{k}$ is a ***linear isometry*** of $\mathbb{R}^{k}$.
+* If $L:\mathbb{R}^{n+1}\to\mathbb{R}^{n+1}$ is a linear isometry and since it is bijective, then $$L(A\cap B) = L(A)\cap L(B)$$ for general subsets $A,B$.
 
 ### Week 5
 
