@@ -150,3 +150,41 @@ In week 4's example sheet, we enter the field of spherical geometry.
 [MA243_Geometry_week_5.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11240922/MA243_Geometry_week_5.pdf)
 
 In week 5's example sheet, we mainly focus on spherical geometry and hyperplane and Lorentz transformation.
+
+#### Definition for $\mathcal{H}^{n}$ is comparable to that for $S^{n}$
+
+* We note the difference between these two: $$d_{S^{n}}(\mathbf{x},\mathbf{y}) = \cos^{-1}(\mathbf{x},\mathbf{y}) = \left(\frac{\langle\mathbf{x},\mathbf{y}\rangle}{|\mathbf{x}| |\mathbf{y}|}\right)\quad d_{\mathcal{H}^{n}}(\mathbf{x},\mathbf{y}) = \cosh^{-1}(\mathbf{x},\mathbf{y}) = \left(\frac{\langle\mathbf{x},\mathbf{y}\rangle_{L}}{|\mathbf{x}|_L|\mathbf{y}|_L}\right).$$
+
+#### Terminology inspired by special relativity
+
+There are several terminology including ***time,space and light like vectors***:
+
+* A point $\mathbf{x}\in\mathbb{R}^{n}$ is ***space-like*** if $\left\|\mathbf{x}\right\|_{L}\in (0,\infty)$, i.e. if $\langle\mathbf{x},\mathbf{x}\rangle _{L}>0.$
+* A point $\mathbf{x}\in\mathbb{R}^{n}$ is ***light-like*** if $\left|\mathbf{x}\right|_{L} = 0$, i.e. if $\langle\mathbf{x},\mathbf{x}\rangle _{L}=0.$
+* A point $\mathbf{x}\in\mathbb{R}^{n}$ is ***time-like*** if $\left|\mathbf{x}\right|_{L}\in i(0,\infty)$, i.e. if $\langle\mathbf{x},\mathbf{x}\rangle _{L}<0.$
+* A point $\mathbf{x}\in\mathbb{R}^{n}$ is ***positive*** if $x_{1} > 0.$
+* A point $\mathbf{x}\in\mathbb{R}^{n}$ is ***negative*** if $x_{1} < 0.$
+* A ***time-like*** or ***space-like*** vector $\mathbf{x}\in\mathbb{R}^{n}$ is ***positive*** if $x_{1} > 0$ and ***negative*** if $x_{1} < 0.$
+
+#### Lorentz transformation
+
+* A map $T:\mathbb{R}^{n}\to\mathbb{R}^{n}$ is a ***Lorentz transformation*** if it preserves the Lorentz inner product: $$\langle T(\mathbf{x}),T(\mathbf{y})\rangle_{L} = \langle\mathbf{x},\mathbf{y}\rangle_{L}\,\forall\mathbf{x},\mathbf{y}\in\mathbb{R}^{n}.$$
+* We see that $T$ is ***positive*** if $\mathbf{x}$ is ***positive time-like*** if and only if $T(\mathbf{x})$ is ***positive time-like***.
+
+#### Lorentz orthogonal
+
+* An $n\times n$ real matrix $A$ is ***Lorentz orthogonal*** if 
+```math
+A^{T}JA = J:= \begin{bmatrix} -1 & \mathbf{0} \\
+ \mathbf{0} & I_{n-1} \end{bmatrix},
+```
+
+* The ***Lorentz group*** is the group of Lorentz orthogonal $(n+1)\times (n+1)$ matrices, denoted $$O(1,n) = \set{A\in M_{(n+1)\times(n+1)}|A^{T}JA = J}.$$
+* The ***positive Lorentz group*** is the subgroup of $O(1,n)$ which maps ***positive time like vectors*** bijectively to ***positive time like vectors***. This is denoted $O^{+}(1,n)$.
+* $O(1,n)$ and $O^{+}(1,n)$ are groups.
+* A set of vectors $\mathbf{v}_ 1,...,\mathbf{v}_ n\in\mathbb{R}^{n}$ is ***Lorentz orthogonal*** if $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = 0$ for $i\ne j$. 
+It is ***Lorentz orthonormal*** if 
+* $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = 0, if $i\ne j$.
+* $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = 1, if $2\leq i=j < n$.
+
+
