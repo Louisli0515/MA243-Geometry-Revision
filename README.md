@@ -149,4 +149,4 @@ In week 4's example sheet, we enter the field of spherical geometry.
 
 [MA243_Geometry_week_5.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11240922/MA243_Geometry_week_5.pdf)
 
-
+In week 5's example sheet, we mainly focus on spherical geometry and hyperplane and Lorentz transformation.
