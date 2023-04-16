@@ -209,3 +209,6 @@ It is ***Lorentz orthonormal*** if
 
 * A 2-dimensional ***sub-vector*** space $V$ of $\mathbb{R}^{n+1}$ is called a ***Lorentz plane*** if it contains a ***time-like*** vector. A ***hyperbolic line*** is the intersection of $\mathcal{H}^{n}$ with any ***Lorentz plane***.
 
+### Week 6
+
+[MA243_Geometry_week_6.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11244804/MA243_Geometry_week_6.pdf)
