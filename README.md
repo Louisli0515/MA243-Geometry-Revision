@@ -171,6 +171,7 @@ There are several terminology including ***time,space and light like vectors***:
 
 * A map $T:\mathbb{R}^{n}\to\mathbb{R}^{n}$ is a ***Lorentz transformation*** if it preserves the Lorentz inner product: $$\langle T(\mathbf{x}),T(\mathbf{y})\rangle_{L} = \langle\mathbf{x},\mathbf{y}\rangle_{L}\,\forall\mathbf{x},\mathbf{y}\in\mathbb{R}^{n}.$$
 * We see that $T$ is ***positive*** if $\mathbf{x}$ is ***positive time-like*** if and only if $T(\mathbf{x})$ is ***positive time-like***.
+* A Lorentz transformation is ***bijective***.
 
 #### Lorentz orthogonal
 
@@ -212,3 +213,9 @@ It is ***Lorentz orthonormal*** if
 ### Week 6
 
 [MA243_Geometry_week_6.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11244804/MA243_Geometry_week_6.pdf)
+
+Week 6's example sheet is a recap of Lorentz geometry and isomorphism. Therefore all the lemmas and theorems are given above, there is only one to note.
+
+#### Parameterisation of $\mathcal{H}^{2}$
+
+* There is a ***paraterisation*** $f:\mathbb{R}^{2}\to\mathcal{H}^{2}$ where $$f:(t,\theta)\to(\cosh(t),\cos(\theta)\sinh(t),\sin(\theta)\sinh(t)),\quad t\in[0,\infty),\theta\in[0,2\pi),$$ where $\mathbb{R}^{2}$ is given with polar coordiantes, and $\mathcal{H}^{2}$ with the Cartesian coordinates of $\mathbb{R}^{3}$.
