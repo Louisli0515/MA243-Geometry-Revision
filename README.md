@@ -184,14 +184,27 @@ A^{T}JA = J:= \begin{bmatrix} -1 & \mathbf{0} \\
 * $O(1,n)$ and $O^{+}(1,n)$ are groups.
 * A set of vectors $\mathbf{v}_ 1,...,\mathbf{v}_ n\in\mathbb{R}^{n}$ is ***Lorentz orthogonal*** if $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = 0$ for $i\ne j$. 
 It is ***Lorentz orthonormal*** if 
-* $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = 0,$ if $i\ne j$.
-* $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = 1,$ if $2\leq i=j < n$.
-* $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = -1,$ if $i=j=1$.
+* (1) $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = 0,$ if $i\ne j$.
+* (2) $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = 1,$ if $2\leq i=j < n$.
+* (3) $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = -1,$ if $i=j=1$.
+* If $A\in O(1,n)$, then $A^{T}\in O(1,n).$
 
 #### Lemma of Lorentz transformation
 
 * The ***canonical basis*** $\mathbf{e}_ {1},...,\mathbf{e}_ {n}$ is ***Lorentz orthonormal***.
 * If $\mathbf{v}_ {1},...,\mathbf{v}_ {n}$ are ***Lorentz orthonormal***, then they form a basis of $\mathbb{R}^{n}$.
 * $\mathbf{v}_ {1},...,\mathbf{v}_ {n}$ is a Lorentz orthonormal basis if and only if $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = J_{i,j}$, the element in the ith row, jth column of $J$.
+* A linear map $T:\mathbb{R}^{n}\to\mathbb{R}^{n}$, with matrix $A$ is a ***Lorentz transformation*** if and only if it maps the ***standard basis*** to a ***Lorentz orthonormal basis***.
+* Let $A$ be a $n\times n$ matrix. THe following are equivalent: 
+* (1) The map $T(\mathbf{x}) = A\mathbf{x}$ is a ***Lorentz transformation***.
+* (2) $\left\|T(\mathbf{x})\right\|_ {L} = \left|\mathbf{x}\right|_ {L}$ for all $\mathbf{x}\in\mathbb{R}^{n}$.
+* (3) $A$ is ***Lorentz orthogonal***.
+* A map $T:\mathbb{R}^{n}\to\mathbb{R}^{n}$ is a Lorentz transformation if and only if 
+* (1) The image of the canonical basis $T(\mathbf{e}_ {1}),...,T(\mathbf{e}_ {n})$ is ***Lorentz orthonormal***.
+* (2) $T$ is ***linear***.
+* There is a ***basis*** of $\mathbb{R}^{n+1}$ consisting of ***time-like*** vectors, which may be taken to be elements of $\mathcal{H}^{n}$.
 
+#### Hyperbolic lines
+
+* A 2-dimensional ***sub-vector*** space $V$ of $\mathbb{R}^{n+1}$ is called a ***Lorentz plane*** if it contains a ***time-like*** vector. A ***hyperbolic line*** is the intersection of $\mathcal{H}^{n}$ with any ***Lorentz plane***.
 
