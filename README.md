@@ -184,7 +184,14 @@ A^{T}JA = J:= \begin{bmatrix} -1 & \mathbf{0} \\
 * $O(1,n)$ and $O^{+}(1,n)$ are groups.
 * A set of vectors $\mathbf{v}_ 1,...,\mathbf{v}_ n\in\mathbb{R}^{n}$ is ***Lorentz orthogonal*** if $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = 0$ for $i\ne j$. 
 It is ***Lorentz orthonormal*** if 
-* $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = 0, if $i\ne j$.
-* $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = 1, if $2\leq i=j < n$.
+* $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = 0,$ if $i\ne j$.
+* $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = 1,$ if $2\leq i=j < n$.
+* $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = -1,$ if $i=j=1$.
+
+#### Lemma of Lorentz transformation
+
+* The ***canonical basis*** $\mathbf{e}_ {1},...,\mathbf{e}_ {n}$ is ***Lorentz orthonormal***.
+* If $\mathbf{v}_ {1},...,\mathbf{v}_ {n}$ are ***Lorentz orthonormal***, then they form a basis of $\mathbb{R}^{n}$.
+* $\mathbf{v}_ {1},...,\mathbf{v}_ {n}$ is a Lorentz orthonormal basis if and only if $\langle\mathbf{v}_ {i},\mathbf{v}_ {j}\rangle_{L} = J_{i,j}$, the element in the ith row, jth column of $J$.
 
 
