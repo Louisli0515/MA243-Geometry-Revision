@@ -219,3 +219,11 @@ Week 6's example sheet is a recap of Lorentz geometry and isomorphism. Therefore
 #### Parameterisation of $\mathcal{H}^{2}$
 
 * There is a ***paraterisation*** $f:\mathbb{R}^{2}\to\mathcal{H}^{2}$ where $$f:(t,\theta)\to(\cosh(t),\cos(\theta)\sinh(t),\sin(\theta)\sinh(t)),\quad t\in[0,\infty),\theta\in[0,2\pi),$$ where $\mathbb{R}^{2}$ is given with polar coordiantes, and $\mathcal{H}^{2}$ with the Cartesian coordinates of $\mathbb{R}^{3}$.
+
+### Week 7
+
+[MA243_Geometry_week_7.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11266989/MA243_Geometry_week_7.pdf)
+
+Week 7's example sheet leads us to Projective Geometry.
+
+
