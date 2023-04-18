@@ -226,4 +226,44 @@ Week 6's example sheet is a recap of Lorentz geometry and isomorphism. Therefore
 
 Week 7's example sheet leads us to Projective Geometry.
 
+#### Equivalence relation
 
+* Define an ***equivalence relation*** on $V^{*}$ by defining for $\mathbf{x},\mathbf{y}\in V$, $$\mathbf{x}\sim\mathbf{y}\Longleftrightarrow k\mathbf{x} = k\mathbf{y}.$$
+
+#### Projective space
+
+* The ***projective space of*** $V$ is the set of ***equivalence classes*** in $V^{*}$ under this relation: $$\mathbb{P}^{n}(k) = \mathbb{P}(V) = V^{ *}\setminus\sim.$$
+* When $k = \mathbb{R}$, we write $\mathbb{P}^{n} = \mathbb{P}(\mathbb{R}^{n+1})$, and call this $n$-dimensional real projective space.
+
+#### k-dimensional projective linear subspace
+
+* If $V$ is a vector space $V$, with a $k+1$ dimensional vector subspace $W$, then the ***k-dimensional projective linear subspace*** $\mathbb{P}(W)$ of $\mathbb{P}(V)$ is the ***image under*** $\pi$ of $W$ in $\mathbb{P}(V)$, that is $$\mathbb{P}(W) = \set{\mathbf{x}\in\mathbb{P}(V):\mathbf{x}\subset W} = \pi(W).$$
+* The dimension of $\mathbb{P}(W)$ is one less than the dimension of $W$.
+
+#### Definition of point, line and plane in projective geometry
+
+* Let $W$ be a ***subvector space*** of $V$. Then $$\mathbb{P}(W)$$ is a 
+* ***point*** if $\dim(W) = 1$.
+* ***line*** if $\dim(W) = 2$.
+* ***plane*** if $\dim(W) = 3$.
+
+#### Projective general linear group
+
+* The ***projective general linear group*** of a vector space $V$ over a field $k$ is the group of all ***invertible linear maps*** from $T:V\to V$ up to ***scalar multiplication***, that is, we consider $T_{1}\sim T_{2}$ if there is some non-zero element $\lambda\in k$ with $T_{2} = \lambda T_{1}$. 
+* We write PGL $(n)$ = PGL $(\mathbb{R}^{n})$. In this case, the elements of PGL $(n)$ are ***invertible matrices*** up to scalar multiplication, that is $$A\sim B\Longleftrightarrow  A = \lambda B$$ for some $\lambda\in\mathbb{R}^{*}.$
+
+#### Projective transformation
+
+* If $A$ is an invertible $(n+1)\times(n+1)$ matrix, then the map $$T_{A}:\mathbb{P}^{n}\to\mathbb{P}^{n},\quad \left[\mathbf{v}\right]\to\left[A\mathbf{v}\right]$$ is called a ***projective transformation***, or a ***projectivity*** or a ***projective linear map***.
+
+#### Projective frame of reference
+
+* A ***projective frame of reference*** for $\mathbb{P}^{n}$ is an ***ordered*** set of $n+2$ points, $P_{0}, P_{1},..., P_{n+1}\in\mathbb{P}^{n}$, any $n+1$ of which are ***linearly independent*** and so span $\mathbb{P}^{n}$.
+
+#### Standard frame of reference
+
+* The ***standard frame of reference*** for $\mathbb{P}^{n}$ is given by $[\mathbf{e}_ {1}],...,[\mathbf{e}_ {n+1}]$ together with $[\mathbf{e}_ {1} + ...+\mathbf{e}_ {n+1}]$, where $\mathbf{e}_{i}$ are the standard basis for $\mathbb{R}^{n+1}$.
+
+#### Bijection between projective transformation and projective frames of reference
+
+* There is a ***bijection*** between projective transformations of $\mathbb{P}^{n}$ and ***projective frames of references*** of $\mathbb{P}^{n}$, defined as follows: $$\phi: PGL(n+1)\to\set{\text{projective frames of reference}},\quad T\to\set{T([\mathbf{e}_ {1}]),...,T([\mathbf{e}_ {n+1}]), T([\mathbf{e}_ {1}+...+\mathbf{e}_ {n+1}])}.$$
