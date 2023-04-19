@@ -267,3 +267,31 @@ Week 7's example sheet leads us to Projective Geometry.
 #### Bijection between projective transformation and projective frames of reference
 
 * There is a ***bijection*** between projective transformations of $\mathbb{P}^{n}$ and ***projective frames of references*** of $\mathbb{P}^{n}$, defined as follows: $$\phi: PGL(n+1)\to\set{\text{projective frames of reference}},\quad T\to\set{T([\mathbf{e}_ {1}]),...,T([\mathbf{e}_ {n+1}]), T([\mathbf{e}_ {1}+...+\mathbf{e}_ {n+1}])}.$$
+
+### Week 8
+
+This is the final example sheet as the remaining two focuses on assignments.
+
+#### Perspectivity
+
+* A ***perspectivity*** $f$ is a map between two ***distinct hyperlanes*** (linear subspaces of dimension $n-1$), $\Pi_{1}$ and $\Pi_{2}$ in $\mathbb{P}^{n}$, given by projection from a point $O\notin\Pi_{1}\cup\Pi_{2}$. That is , if $P\in\Pi_{1}$, then $f(P)\in\Pi_{2}$ is the point such that $0,P,f(P)$ all lie on the same line.
+
+#### Cross ratio
+
+* Let $P,Q,R,S$ be four ***distinct points on a line*** in $\mathbb{P}^{n}$. Choose an appropriate basis such that $P = (1:0)$ and $Q = (0:1)$. Since $\tilde{P}$ and $\tilde{Q}$ span the line that $R$ and $S$ lie on, and since $R,S\ne P$, there are $\lambda,\mu\in\mathbb{R}$ such that we can write with respect to this basis: $$R = (1:\lambda), S = (1:\mu).$$ Then the ***cross ratio*** is $$\set{P,Q;R,S} = \frac{\lambda}{\mu}.$$
+* Here, $\tilde{P}$ is defined up to direction, not magnitude, and given by $$\tilde{P} = \text{any choice of non-zero}\mathbf{v}\in P.$$
+* If $P,Q,R,S$ are points in $\mathbb{P}^{1}$, then they can be considered as lines in $\mathbb{R}^{2}$. Let $L$ be any line in $\mathbb{R}^{2}$ not through the origin. Let $\mathbf{p},\mathbf{q},\mathbf{r},\mathbf{s}$ be the vector coordinates of the intersections of $P,Q,R,S$ with $L$. Then $$\set{P,Q;R,S} = \left(\frac{\mathbf{p}-\mathbf{r}}{\mathbf{p}-\mathbf{s}}\right)\left(\frac{\mathbf{q}-\mathbf{s}}{\mathbf{q}-\mathbf{r}}\right),$$ where the ratios of vectors make sense because they all in the direction of $L$, and we define $\frac{\lambda\mathbf{v}}{\mathbf{v}} = \lambda.$
+
+#### Definitions of triangle
+
+* A ***triangle*** $\Delta PQR$ in $\mathbb{P}^{n}$ is a set of three distinct points, $P,Q,R\in\mathbb{P}^{n}$ and the "sides" of the triangle, which are three lines spanned by the three paris of points.
+* Two triangles $\Delta PQR$ and $\Delta P'Q'R'$ in $\mathbb{P}^{n}$ are said to be ***in persepctive from a point*** $\mathcal{O}$ if the lines $\langle P,P'\rangle, \langle Q,Q'\rangle, \langle R,R'\rangle$ all ***intersect in a common point*** $\mathcal{O}$.
+* Two triangles $\Delta PQR$ and $\Delta P'Q'R'$ with sides $p,q,r$ and $p',q',r'$ in $\mathbb{P}^{n}$ are said to be ***in perspective from a line*** $L$ if the points $p\cap p',q\cap q',r\cap r'$ all lie on a common line $L$.
+
+#### Desargues' Theorem
+
+* If $\Delta PQR$ and $\Delta P'Q'R'$ are two ***distinct triangles*** in $\mathbb{P}^{n}$ which are in ***perspective from a point, then they are also in perspective from a line***.
+
+#### Pappu's Theorem
+
+* Let $L,L'\subset\mathbb{P}^{2}$ be ***distinct projective lines***. Let $P,Q,R\in L\setminus L', P', Q', R'\in L'\setminus L$ be distinct points. Then  the intersection points $$A = \langle P,Q'\rangle\cap\langle P',Q\rangle,\quad B = \langle P,R'\rangle\cap\langle P',R\rangle,\quad C = \langle Q,R'\rangle\cap\langle Q', R\rangle$$ are colinear.
