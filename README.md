@@ -252,6 +252,10 @@ Week 7's example sheet leads us to Projective Geometry.
 * The ***projective space of*** $V$ is the set of ***equivalence classes*** in $V^{*}$ under this relation: $$\mathbb{P}^{n}(k) = \mathbb{P}(V) = V^{ *}\setminus\sim.$$
 * When $k = \mathbb{R}$, we write $\mathbb{P}^{n} = \mathbb{P}(\mathbb{R}^{n+1})$, and call this $n$-dimensional real projective space.
 
+Alternative definition
+
+* The projective space $\mathbb{P}^{n}$ is the set of lines through 0 in $\mathbb{R}^{n+1}$.
+
 #### k-dimensional projective linear subspace
 
 * If $V$ is a vector space $V$, with a $k+1$ dimensional vector subspace $W$, then the ***k-dimensional projective linear subspace*** $\mathbb{P}(W)$ of $\mathbb{P}(V)$ is the ***image under*** $\pi$ of $W$ in $\mathbb{P}(V)$, that is $$\mathbb{P}(W) = \set{\mathbf{x}\in\mathbb{P}(V):\mathbf{x}\subset W} = \pi(W).$$
