@@ -3,57 +3,7 @@ My own revision on the module Geometry, mainly from example sheets and past pape
 
 This repository will mainly focus on two parts, from support class sheets and past papers. For the support class I will create my own pdf, so no license issues should be addressed.
 
-- [MA243-Geometry-Revision](#ma243-geometry-revision)
-  * [Lecture notes](#lecture-notes)
-  * [Example sheets](#example-sheets)
-    + [Week 1](#week-1)
-      - [Metric](#metric)
-      - [Collinearity](#collinearity)
-      - [Isometries and Euclidean space](#isometries-and-euclidean-space)
-      - [Affine maps](#affine-maps)
-      - [Reflection and rotational matrix](#reflection-and-rotational-matrix)
-    + [Week 2](#week-2)
-      - [Orthogonality](#orthogonality)
-      - [Orthogonal complement](#orthogonal-complement)
-      - [Eigenvectors and eigenvalues](#eigenvectors-and-eigenvalues)
-      - [Orthogonal matrices and Linear Isometry](#orthogonal-matrices-and-linear-isometry)
-      - [Normal form Theorem](#normal-form-theorem)
-      - [Spectral theorem](#spectral-theorem)
-    + [Week 3](#week-3)
-      - [Hyperplane](#hyperplane)
-      - [Reflection](#reflection)
-      - [Review of Group Theory](#review-of-group-theory)
-    + [Week 4](#week-4)
-      - [The sphere and the spherical metric](#the-sphere-and-the-spherical-metric)
-      - [Antipodal](#antipodal)
-      - [Spherical Distance](#spherical-distance)
-      - [Main formula of spherical trigonomtry](#main-formula-of-spherical-trigonomtry)
-      - [Isometry in spherical geometry](#isometry-in-spherical-geometry)
-    + [Week 5](#week-5)
-      - [Definition for $\mathcal{H}^{n}$ is comparable to that for $S^{n}$](#definition-for---mathcal-h---n---is-comparable-to-that-for--s--n--)
-      - [Terminology inspired by special relativity](#terminology-inspired-by-special-relativity)
-      - [Lorentz transformation](#lorentz-transformation)
-      - [Lorentz orthogonal](#lorentz-orthogonal)
-      - [Lemma of Lorentz transformation](#lemma-of-lorentz-transformation)
-      - [Hyperbolic lines](#hyperbolic-lines)
-    + [Week 6](#week-6)
-      - [Parameterisation of $\mathcal{H}^{2}$](#parameterisation-of---mathcal-h---2--)
-    + [Week 7](#week-7)
-      - [Equivalence relation](#equivalence-relation)
-      - [Projective space](#projective-space)
-      - [k-dimensional projective linear subspace](#k-dimensional-projective-linear-subspace)
-      - [Definition of point, line and plane in projective geometry](#definition-of-point--line-and-plane-in-projective-geometry)
-      - [Projective general linear group](#projective-general-linear-group)
-      - [Projective transformation](#projective-transformation)
-      - [Projective frame of reference](#projective-frame-of-reference)
-      - [Standard frame of reference](#standard-frame-of-reference)
-      - [Bijection between projective transformation and projective frames of reference](#bijection-between-projective-transformation-and-projective-frames-of-reference)
-    + [Week 8](#week-8)
-      - [Perspectivity](#perspectivity)
-      - [Cross ratio](#cross-ratio)
-      - [Definitions of triangle](#definitions-of-triangle)
-      - [Desargues' Theorem](#desargues--theorem)
-      - [Pappu's Theorem](#pappu-s-theorem)
+
 
 
 
@@ -200,6 +150,10 @@ In week 4's example sheet, we enter the field of spherical geometry.
 * A ***bijective map*** $f:\mathbb{R}^{k}\to\mathbb{R}^{k}$, which ***preserves the standard inner product*** on $\mathbb{R}^{k}$ is a ***linear isometry*** of $\mathbb{R}^{k}$.
 * If $L:\mathbb{R}^{n+1}\to\mathbb{R}^{n+1}$ is a linear isometry and since it is bijective, then $$L(A\cap B) = L(A)\cap L(B)$$ for general subsets $A,B$.
 
+#### Area of spherical triangle
+
+* The spherical triangle $\triangle$ with angles $\alpha,\beta,\gamma$ is $$\text{area}(\triangle) = \alpha+\beta+\gamma - \pi.$$
+
 ### Week 5
 
 [MA243_Geometry_week_5.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11240922/MA243_Geometry_week_5.pdf)
@@ -273,6 +227,14 @@ Week 6's example sheet is a recap of Lorentz geometry and isomorphism. Therefore
 #### Parameterisation of $\mathcal{H}^{2}$
 
 * There is a ***paraterisation*** $f:\mathbb{R}^{2}\to\mathcal{H}^{2}$ where $$f:(t,\theta)\to(\cosh(t),\cos(\theta)\sinh(t),\sin(\theta)\sinh(t)),\quad t\in[0,\infty),\theta\in[0,2\pi),$$ where $\mathbb{R}^{2}$ is given with polar coordiantes, and $\mathcal{H}^{2}$ with the Cartesian coordinates of $\mathbb{R}^{3}$.
+
+#### Area of hyperbolic triangle
+
+* The area of a hyperbolic triangle $\triangle$ with angles $\alpha,\beta,\gamma$ is $$\text{area}(\triangle) = \pi-(\alpha+\beta+\gamma).$$
+
+#### Main formula of hyperbolic trignometry
+
+* For distinct points $\mathbf{x},\mathbf{y},\mathbf{z}$ in $\mathcal{H}^{n}$, let $$\alpha = d_{\mathcal{H}^{n}}(\mathbf{z},\mathbf{y}),\quad\beta = d_{\mathcal{H}^{n}}(\mathbf{x},\mathbf{z}),\quad\gamma = d_{\mathcal{H}^{n}}(\mathbf{x},\mathbf{y}),\quad a = \text{hyperbolic angle at x},$$ then $$\cosh\alpha = \cosh\beta\cdot\cosh\gamma - \sinh\beta\cdot\sinh\gamma\cdot\cos a.$$
 
 ### Week 7
 
