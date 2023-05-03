@@ -264,6 +264,11 @@ Week 7's example sheet leads us to Projective Geometry.
 * ***line*** if $\dim(W) = 2$.
 * ***plane*** if $\dim(W) = 3$.
 
+#### Dimension formula for projective geometry
+
+* For projective linear subspaces $E$ and $F$ of $\mathbb{P}(V)$, $$\dim(E\cap F) = \dim(E)+ \dim(F) - \dim\langle E,F\rangle,$$ with the convention $\dim(\emptyset) = -1$ and $\langle E,F\rangle$ is the linear subspace of $\mathbb{P}(V)$ spanned by $E$ and $F$.
+
+
 #### Projective general linear group
 
 * The ***projective general linear group*** of a vector space $V$ over a field $k$ is the group of all ***invertible linear maps*** from $T:V\to V$ up to ***scalar multiplication***, that is, we consider $T_{1}\sim T_{2}$ if there is some non-zero element $\lambda\in k$ with $T_{2} = \lambda T_{1}$. 
