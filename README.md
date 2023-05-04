@@ -160,6 +160,11 @@ In week 4's example sheet, we enter the field of spherical geometry.
 
 In week 5's example sheet, we mainly focus on spherical geometry and hyperplane and Lorentz transformation.
 
+#### Definition of hyperbolic metric
+
+* The hyperbolic metric on $\mathcal{H}^{n}$ is defined as $$\mathcal{H}^{n} = \set{\mathbf{x}\in\mathbb{R}^{n+1}:\left\|\mathbf{x}\right\|_ {L} = i, x_{1} > 0}.$$
+
+
 #### Definition for $\mathcal{H}^{n}$ is comparable to that for $S^{n}$
 
 * We note the difference between these two: $$d_{S^{n}}(\mathbf{x},\mathbf{y}) = \cos^{-1}(\mathbf{x},\mathbf{y}) = \left(\frac{\langle\mathbf{x},\mathbf{y}\rangle}{|\mathbf{x}| |\mathbf{y}|}\right)\quad d_{\mathcal{H}^{n}}(\mathbf{x},\mathbf{y}) = \cosh^{-1}(\mathbf{x},\mathbf{y}) = \left(\frac{\langle\mathbf{x},\mathbf{y}\rangle_{L}}{|\mathbf{x}|_L|\mathbf{y}|_L}\right).$$
