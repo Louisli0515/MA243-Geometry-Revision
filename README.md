@@ -98,6 +98,12 @@ B_{i} = \begin{bmatrix} \cos\theta_{i} & -\sin\theta_{i} \\
 
 * $A$ is normal if and only if it is unitarily diagonalisable. i.e. $A$ is normal if and only if there exists a unitary matrix $U$ such that $$A = UDU^* ,$$ where $D$ is a digaonal matrix, and $U$ is a unitary matrix, meaning its conjugate transpose $U*$ is also its inverse, that is, if $$U^* U = UU^* = UU^{-1} = I.$$
 
+#### Euclidian geometry important theorems
+
+* Let $T:\mathbb{R}^{2}\to\mathbb{R}^{2}$ be a Euclidian isometry. Then the image $T(C)$ of a circle $C$ of centre $x\in\mathbb{R}^{2}$ and radius $r > 0$ is a circle of centre $T(x)$ and radius $r$.
+* Let $n\geq 1$ and $L:\mathbb{R}^{n}\to\mathbb{R}^{n}$ be a linear Euclidian isometry with a real eigenvalue $\lambda$, then $\lambda = \pm 1$.
+* For every $n\geq 2$, every Euclidian line $L$ in $\mathbb{R}^{n}$ and point $P\in\mathbb{R}^{n}$ not belonging to $L$, there is a line $L'$ passing through $P$ such that $L\cap L' = \emptyset$.
+
 ### Week 3
 
 [MA243_Geometry_week_3.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11237714/MA243_Geometry_week_3.pdf)
@@ -242,6 +248,10 @@ Week 6's example sheet is a recap of Lorentz geometry and isomorphism. Therefore
 
 * For distinct points $\mathbf{x},\mathbf{y},\mathbf{z}$ in $\mathcal{H}^{n}$, let $$\alpha = d_{\mathcal{H}^{n}}(\mathbf{z},\mathbf{y}),\quad\beta = d_{\mathcal{H}^{n}}(\mathbf{x},\mathbf{z}),\quad\gamma = d_{\mathcal{H}^{n}}(\mathbf{x},\mathbf{y}),\quad a = \text{hyperbolic angle at x},$$ then $$\cosh\alpha = \cosh\beta\cdot\cosh\gamma - \sinh\beta\cdot\sinh\gamma\cdot\cos a.$$
 
+#### Important theorms in hyperbolic geometry
+
+* For every $n\geq 2$, every hyperbolic line $L$ in $\mathcal{H}^{n}$ and point $P\in\mathcal{H}^{n}$ not belonging to $L$, there is a hyperbolic line $L'$ passing through $P$ such that $L\cap L' = \emptyset$.
+
 ### Week 7
 
 [MA243_Geometry_week_7.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11299007/MA243_Geometry_week_7.pdf)
@@ -307,6 +317,10 @@ This is the final example sheet as the remaining two focuses on assignments.
 #### Perspectivity
 
 * A ***perspectivity*** $f$ is a map between two ***distinct hyperlanes*** (linear subspaces of dimension $n-1$), $\Pi_{1}$ and $\Pi_{2}$ in $\mathbb{P}^{n}$, given by projection from a point $O\notin\Pi_{1}\cup\Pi_{2}$. That is , if $P\in\Pi_{1}$, then $f(P)\in\Pi_{2}$ is the point such that $0,P,f(P)$ all lie on the same line.
+
+#### Projectivities between lines
+
+* Two projectivities between lines coincide iff they coincide on a frame of reference, i.e. on three distinct points.
 
 #### Cross ratio
 
