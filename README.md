@@ -45,6 +45,7 @@ In week 1's example sheets, there are some new definitions and old linear algebr
 #### Reflection and rotational matrix
 
 * A reflection matrix has eigenvalues $\pm 1$, while a rotational matrix with an anti-clockwise rotation has eigenvalues $e^{\pm i\theta}$.
+* A ***reflection matrix*** has determinant -1 while a ***rotation matrix*** has determinant 1.
 
 ### Week 2
 
