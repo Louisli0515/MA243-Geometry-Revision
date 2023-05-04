@@ -47,6 +47,19 @@ In week 1's example sheets, there are some new definitions and old linear algebr
 * A reflection matrix has eigenvalues $\pm 1$, while a rotational matrix with an anti-clockwise rotation has eigenvalues $e^{\pm i\theta}$.
 * A ***reflection matrix*** has determinant -1 while a ***rotation matrix*** has determinant 1.
 
+#### Euclidian motion
+
+* An Euclidian motion is a bijective map $T:\mathbb{E}^{n}\to\mathbb{E}^{n}$ that is an isometry.
+
+#### Glide reflection
+
+* We can assume that the glide $f$ is given by 
+
+```math
+\begin{pmatrix} x\\y \end{pmatrix} \to \begin{pmatrix} 1&0\\ 0&-1 \end{pmatrix} \begin{pmatrix} x\\ y\end{pmatrix} + \begin{pmatrix}  t\\ 0 \end{pmatrix},
+```
+where $t$ is non-zero.
+
 ### Week 2
 
 [MA243_Geometry_week_2.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11232734/MA243_Geometry_week_2.pdf)
