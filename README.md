@@ -316,7 +316,7 @@ This is the final example sheet as the remaining two focuses on assignments.
 
 #### Perspectivity
 
-* A ***perspectivity*** $f$ is a map between two ***distinct hyperlanes*** (linear subspaces of dimension $n-1$), $\Pi_{1}$ and $\Pi_{2}$ in $\mathbb{P}^{n}$, given by projection from a point $O\notin\Pi_{1}\cup\Pi_{2}$. That is , if $P\in\Pi_{1}$, then $f(P)\in\Pi_{2}$ is the point such that $0,P,f(P)$ all lie on the same line.
+* A ***perspectivity*** $f$ is a map between two ***distinct hyperplanes*** (linear subspaces of dimension $n-1$), $\Pi_{1}$ and $\Pi_{2}$ in $\mathbb{P}^{n}$, given by projection from a point $O\notin\Pi_{1}\cup\Pi_{2}$. That is , if $P\in\Pi_{1}$, then $f(P)\in\Pi_{2}$ is the point such that $0,P,f(P)$ all lie on the same line.
 
 #### Projectivities between lines
 
