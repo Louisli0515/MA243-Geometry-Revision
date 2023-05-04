@@ -174,6 +174,10 @@ In week 4's example sheet, we enter the field of spherical geometry.
 
 * The spherical triangle $\triangle$ with angles $\alpha,\beta,\gamma$ is $$\text{area}(\triangle) = \alpha+\beta+\gamma - \pi.$$
 
+#### Important theorems in spherical geometry
+
+* If $\mathcal{C}$ and $\mathcal{D}$ are two distinct great circles on $S^{2}$, then $\mathcal{C}\cap\mathcal{D} = \set{-P,P}$ for some $P\in S^{2}$.
+
 ### Week 5
 
 [MA243_Geometry_week_5.pdf](https://github.com/Louisli0515/MA243-Geometry-Revision/files/11240922/MA243_Geometry_week_5.pdf)
