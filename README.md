@@ -354,7 +354,7 @@ This is the final example sheet as the remaining two focuses on assignments.
 #### Important theorems in projective geometry
 
 * Any two distinct lines in $\mathbb{P}^{2}$ intersect at a point.
-* Whenever $\mathbb{F}_ {q}$ is a field, (i.e. $q$ is a prime power), the projective plane $\mathbb{P}^{2}(\mathbb{F}_ {q})$ has $q^{2}+q+1$ points and $q^{2}+q+1$ lines. Each line contains $q+1$ points and each point is contained in $q+1$ lines.
+* Whenever $\mathbb{F}_ {q}$ is a field, (i.e. $q$ is a prime power), the projective plane $\mathbb{P}^{n}(\mathbb{F}_ {q})$ has $q^{n}+q^{n-1}+...+1$ points and $q^{n}+q^{n-1}+...+1$ lines. Each line contains $q+1$ points and each point is contained in $q+1$ lines.
 
 #### Desargues' Theorem
 
