@@ -3,6 +3,71 @@ My own revision on the module Geometry, mainly from example sheets and past pape
 
 This repository will mainly focus on two parts, from support class sheets and past papers. For the support class I will create my own pdf, so no license issues should be addressed.
 
+- [MA243-Geometry-Revision](#ma243-geometry-revision)
+  * [Lecture notes](#lecture-notes)
+  * [Example sheets](#example-sheets)
+    + [Week 1](#week-1)
+      - [Metric](#metric)
+      - [Collinearity](#collinearity)
+      - [Isometries and Euclidean space](#isometries-and-euclidean-space)
+      - [Affine maps](#affine-maps)
+      - [Reflection and rotational matrix](#reflection-and-rotational-matrix)
+      - [Euclidian motion](#euclidian-motion)
+      - [Glide reflection](#glide-reflection)
+    + [Week 2](#week-2)
+      - [Orthogonality](#orthogonality)
+      - [Orthogonal complement](#orthogonal-complement)
+      - [Eigenvectors and eigenvalues](#eigenvectors-and-eigenvalues)
+      - [Orthogonal matrices and Linear Isometry](#orthogonal-matrices-and-linear-isometry)
+      - [Normal form Theorem](#normal-form-theorem)
+      - [Spectral theorem](#spectral-theorem)
+      - [Euclidian geometry important theorems](#euclidian-geometry-important-theorems)
+    + [Week 3](#week-3)
+      - [Hyperplane](#hyperplane)
+      - [Reflection](#reflection)
+      - [Review of Group Theory](#review-of-group-theory)
+    + [Week 4](#week-4)
+      - [The sphere and the spherical metric](#the-sphere-and-the-spherical-metric)
+      - [Antipodal](#antipodal)
+      - [Spherical Distance](#spherical-distance)
+      - [Main formula of spherical trigonomtry](#main-formula-of-spherical-trigonomtry)
+      - [Isometry in spherical geometry](#isometry-in-spherical-geometry)
+      - [Area of spherical triangle](#area-of-spherical-triangle)
+      - [Important theorems in spherical geometry](#important-theorems-in-spherical-geometry)
+    + [Week 5](#week-5)
+      - [Definition of hyperbolic metric](#definition-of-hyperbolic-metric)
+      - [Definition for $\mathcal{H}^{n}$ is comparable to that for $S^{n}$](#definition-for---mathcal-h---n---is-comparable-to-that-for--s--n--)
+      - [Terminology inspired by special relativity](#terminology-inspired-by-special-relativity)
+      - [Lorentz transformation](#lorentz-transformation)
+      - [Lorentz orthogonal](#lorentz-orthogonal)
+      - [Lemma of Lorentz transformation](#lemma-of-lorentz-transformation)
+      - [Hyperbolic lines](#hyperbolic-lines)
+    + [Week 6](#week-6)
+      - [Parameterisation of $\mathcal{H}^{2}$](#parameterisation-of---mathcal-h---2--)
+      - [Area of hyperbolic triangle](#area-of-hyperbolic-triangle)
+      - [Main formula of hyperbolic trignometry](#main-formula-of-hyperbolic-trignometry)
+      - [Important theorms in hyperbolic geometry](#important-theorms-in-hyperbolic-geometry)
+    + [Week 7](#week-7)
+      - [Equivalence relation](#equivalence-relation)
+      - [Projective space](#projective-space)
+      - [k-dimensional projective linear subspace](#k-dimensional-projective-linear-subspace)
+      - [Definition of point, line and plane in projective geometry](#definition-of-point--line-and-plane-in-projective-geometry)
+      - [Dimension formula for projective geometry](#dimension-formula-for-projective-geometry)
+      - [Projective general linear group](#projective-general-linear-group)
+      - [Projective transformation](#projective-transformation)
+      - [Projective frame of reference](#projective-frame-of-reference)
+      - [Standard frame of reference](#standard-frame-of-reference)
+      - [Bijection between projective transformation and projective frames of reference](#bijection-between-projective-transformation-and-projective-frames-of-reference)
+    + [Week 8](#week-8)
+      - [Perspectivity](#perspectivity)
+      - [Projectivities between lines](#projectivities-between-lines)
+      - [Cross ratio](#cross-ratio)
+      - [Definitions of triangle](#definitions-of-triangle)
+      - [Projective lines](#projective-lines)
+      - [Important theorems in projective geometry](#important-theorems-in-projective-geometry)
+      - [Desargues' Theorem](#desargues--theorem)
+      - [Pappu's Theorem](#pappu-s-theorem)
+
 
 
 
@@ -113,9 +178,9 @@ B_{i} = \begin{bmatrix} \cos\theta_{i} & -\sin\theta_{i} \\
 
 #### Euclidian geometry important theorems
 
-* Let $T:\mathbb{R}^{2}\to\mathbb{R}^{2}$ be a Euclidian isometry. Then the image $T(C)$ of a circle $C$ of centre $x\in\mathbb{R}^{2}$ and radius $r > 0$ is a circle of centre $T(x)$ and radius $r$.
+* Let $T:\mathbb{R}^{2}\to\mathbb{R}^{2}$ be a Euclidian isometry. Then the image $T(C)$ of a circle $C$ of centre $x\in\mathbb{R}^{2}$ and radius $r > 0$ is a circle of centre $T(x)$ and radius $r$. (This is because let $y\in C$m then $d(y,x) = r$. Since $T$ is an isometry, $d(T(x),T(y)) = d(y,x) = r$, so $T(y)\in C'$ of radius $r$ centred at $T(x)$. Conversely, if $z\in C'$ then since $T^{-1}$ is an isometry, $d(T^{-1}(z), T^{-1}(x)) = d(z,x) = r$, so $T^{-1}(z) \in C$ of radius $r$ centred at $T^{-1}(x)$. Thus, $z = TT^{-1}(z)$ is in the image of $C$.)
 * Let $n\geq 1$ and $L:\mathbb{R}^{n}\to\mathbb{R}^{n}$ be a linear Euclidian isometry with a real eigenvalue $\lambda$, then $\lambda = \pm 1$.
-* For every $n\geq 2$, every Euclidian line $L$ in $\mathbb{R}^{n}$ and point $P\in\mathbb{R}^{n}$ not belonging to $L$, there is a line $L'$ passing through $P$ such that $L\cap L' = \emptyset$.
+* For every $n\geq 2$, every Euclidian line $L$ in $\mathbb{R}^{n}$ and point $P\in\mathbb{R}^{n}$ not belonging to $L$, there is a line $L'$ passing through $P$ such that $L\cap L' = \emptyset.$
 
 ### Week 3
 
@@ -176,7 +241,7 @@ In week 4's example sheet, we enter the field of spherical geometry.
 
 #### Important theorems in spherical geometry
 
-* If $\mathcal{C}$ and $\mathcal{D}$ are two distinct great circles on $S^{2}$, then $\mathcal{C}\cap\mathcal{D} = \set{-P,P}$ for some $P\in S^{2}$.
+* If $\mathcal{C}$ and $\mathcal{D}$ are two distinct great circles on $S^{2}$, then $\mathcal{C}\cap\mathcal{D} = \set{-P,P}$ for some $P\in S^{2}$. (This is because a great circle is the intersection of $S^{2}$ with a 2-dimensional vector subspace of $\mathbb{R}^{3}$. If $C = S^{2}\cap\Pi$ and $c' = S^{2}\cap\Pi'$ are two distinct great circles, the planes $\Pi$ and $\Pi'$ are also distinct, and their intersection is a line $L$ of $\mathbb{R}^{3}$ passing by 0. Thus the intersection would be $C\cap C' = S^{2}\cap\Pi\cap\Pi' = S^{2}\cap L$. If $v$ is a unit vector on $L$, this intersectio nconsists of $v$ and $-v$, which are the two unit vectors on $L$.)
 
 ### Week 5
 
@@ -245,7 +310,7 @@ It is ***Lorentz orthonormal*** if
 
 #### Hyperbolic lines
 
-* A 2-dimensional ***sub-vector*** space $V$ of $\mathbb{R}^{n+1}$ is called a ***Lorentz plane*** if it contains a ***time-like*** vector. A ***hyperbolic line*** is the intersection of $\mathcal{H}^{n}$ with any ***Lorentz plane***.
+* A 2-dimensional ***sub-vector*** space $V$ of $\mathbb{R}^{n+1}$ is called a ***Lorentz plane*** if it contains a ***time-like*** vector. A ***hyperbolic line*** is the intersection of $\mathcal{H}^{n}$ with any ***Lorentz plane***, i,e, $$L = \pi\cap\mathcal{H}^{2}.$$
 
 ### Week 6
 
@@ -267,7 +332,8 @@ Week 6's example sheet is a recap of Lorentz geometry and isomorphism. Therefore
 
 #### Important theorms in hyperbolic geometry
 
-* For every $n\geq 2$, every hyperbolic line $L$ in $\mathcal{H}^{n}$ and point $P\in\mathcal{H}^{n}$ not belonging to $L$, there is a hyperbolic line $L'$ passing through $P$ such that $L\cap L' = \emptyset$.
+* For every $n\geq 2$, every hyperbolic line $L$ in $\mathcal{H}^{n}$ and point $P\in\mathcal{H}^{n}$ not belonging to $L$, there is a hyperbolic line $L'$ passing through $P$ such that $L\cap L' = \emptyset$. (This is because let $L = \mathcal{H}^{n}\cap\Pi$ for some 2-dimensional subspace $\Pi$ of $\mathbb{R}^{n+1}$. Since the dimension of $\mathbb{R}^{n+1}$ is at least 4, we can choose $v\in\mathbb{R}^{n+1}$ linearly independent from the elements of $\Pi$ and $P$. Thus the span of $P$ and $v$ intersects $\Pi$ trivially, and therefore defines a hyperbolic line disjoint from $L$.
+* Two distinct hyperbolic lines of $\mathcal{H}^{2}$ intersect in at most one point. (This is because let $L = \Pi\cap\mathcal{H}^{2}$ and $L' = \Pi'\cap\mathcal{H}^{2}$ be two distinct hyperbolic lines. Then $L\cap L' = \Pi\cap\mathcal{H}^{2}\cap\Pi'\cap\mathcal{H}^{2} = (\Pi\cap\Pi')\cap\mathcal{H}^{2}$, where $\Pi\cap\Pi'$ is the intersection of two 2-dimensional subspaces of $\mathbb{R}^{3}$, which is a line through the origin. Let $v$ be a non-zero vector, and $\lambda v$ a point on the line it spans. Then $\left\|\lambda v\right\|_ {L} = |\lambda|\left\|v\right\|_ {v}$ and $|\lambda|\left\|v\right\|_ {L} = i$ has at most the real solutions $|\lambda| = \frac{i}{\left\|v\right\|_ {L}}$, when $\left\|v\right\|_ {L}$ is pure imaginary. In this case there is exactly one of the two vectors $x = \pm(\frac{i}{\left\|v\right\|_ {L}}) v$ with $x_{1} > 0$, which is the intersection point in $\mathcal{H}^{2}$.)
 
 ### Week 7
 
@@ -351,10 +417,15 @@ This is the final example sheet as the remaining two focuses on assignments.
 * Two triangles $\Delta PQR$ and $\Delta P'Q'R'$ in $\mathbb{P}^{n}$ are said to be ***in persepctive from a point*** $\mathcal{O}$ if the lines $\langle P,P'\rangle, \langle Q,Q'\rangle, \langle R,R'\rangle$ all ***intersect in a common point*** $\mathcal{O}$.
 * Two triangles $\Delta PQR$ and $\Delta P'Q'R'$ with sides $p,q,r$ and $p',q',r'$ in $\mathbb{P}^{n}$ are said to be ***in perspective from a line*** $L$ if the points $p\cap p',q\cap q',r\cap r'$ all lie on a common line $L$.
 
+#### Projective lines
+
+* A projective line in $\mathbb{P}^{2}$ is the image of a plane through 0 in $\mathbb{R}^{3}$ under the canonical projection $p:\mathbb{R}^{3}\setminus\set{0}\to\mathbb{P}^{2}$ that sends $(x_{0},x_{1},x_{2})$ to the line it spans.
+
 #### Important theorems in projective geometry
 
-* Any two distinct lines in $\mathbb{P}^{2}$ intersect at a point.
+* Any two distinct lines in $\mathbb{P}^{2}$ intersect at a point. (This is because let $L = \rho(\Pi)$ and $L' = \rho(\Pi')$ be two distinct projective lines. Then $\Pi = \Pi'$ and therefore $\Pi\cap\Pi'$ is a line $l$ in $\mathbb{R}^{3}$ through 0 and $\rho(\Pi)\cap\rho(\Pi') = \rho(\Pi\cap\Pi') = \rho(l)$, which is by definition a point in $\mathbb{P}^{2}$.)
 * Whenever $\mathbb{F}_ {q}$ is a field, (i.e. $q$ is a prime power), the projective plane $\mathbb{P}^{n}(\mathbb{F}_ {q})$ has $q^{n}+q^{n-1}+...+1$ points and $q^{n}+q^{n-1}+...+1$ lines. Each line contains $q+1$ points and each point is contained in $q+1$ lines.
+* 3 distinct lines in $\mathbb{P}^{n}$ that intersect in pairs are either concurrent (i.e. they have a common point) or coplanar.
 
 #### Desargues' Theorem
 
