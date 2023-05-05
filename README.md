@@ -351,6 +351,11 @@ This is the final example sheet as the remaining two focuses on assignments.
 * Two triangles $\Delta PQR$ and $\Delta P'Q'R'$ in $\mathbb{P}^{n}$ are said to be ***in persepctive from a point*** $\mathcal{O}$ if the lines $\langle P,P'\rangle, \langle Q,Q'\rangle, \langle R,R'\rangle$ all ***intersect in a common point*** $\mathcal{O}$.
 * Two triangles $\Delta PQR$ and $\Delta P'Q'R'$ with sides $p,q,r$ and $p',q',r'$ in $\mathbb{P}^{n}$ are said to be ***in perspective from a line*** $L$ if the points $p\cap p',q\cap q',r\cap r'$ all lie on a common line $L$.
 
+#### Important theorems in projective geometry
+
+* Any two distinct lines in $\mathbb{P}^{2}$ intersect at a point.
+* Whenever $\mathbb{F}_ {q}$ is a field, (i.e. $q$ is a prime power), the projective plane $\mathbb{P}^{2}(\mathbb{F}_ {q})$ has $q^{2}+q+1$ points and $q^{2}+q}1$ lines. Each line contains $q+1$ points and each point is contained in $q+1$ lines.
+
 #### Desargues' Theorem
 
 * If $\Delta PQR$ and $\Delta P'Q'R'$ are two ***distinct triangles*** in $\mathbb{P}^{n}$ which are in ***perspective from a point, then they are also in perspective from a line***.
